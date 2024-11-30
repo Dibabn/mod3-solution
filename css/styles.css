@@ -1,0 +1,76 @@
+/* General Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-toggle {
+  border-color: #ccc;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #333;
+}
+
+.navbar-nav > li > a {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #e2e6ea;
+}
+
+/* Page Heading */
+header h1 {
+  margin: 20px 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Sections Styling */
+.menu-section {
+  height: 500px;
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+#chicken {
+  background-color: #e9ecef;
+}
+
+#beef {
+  background-color: #dfe4ea;
+}
+
+#sushi {
+  background-color: #f1f2f6;
+}
+
+.menu-section h3 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.menu-section p {
+  font-size: 1rem;
+  line-height: 1.6;
+  padding: 0 15px;
+}
+
+/* Mobile Specific Styling */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+  }
+}
